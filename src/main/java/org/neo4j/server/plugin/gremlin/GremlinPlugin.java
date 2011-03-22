@@ -44,7 +44,7 @@ public class GremlinPlugin extends ServerPlugin
      * @return
      */
     @Name( "execute_from_node" )
-    @Description( "execute a Gremlin script with \"_\" set to the start node and \"results\" containing a resulting vertex" )
+    @Description( "execute a Gremlin script with variables 'start' set to the start node 'g' set to the Neo4jGraph and 'results' containing a resulting vertex" )
     @PluginTarget( Node.class )
     public VertexRepresentation getVertex(
             @Source Node startNode,
