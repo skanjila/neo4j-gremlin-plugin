@@ -70,8 +70,8 @@
   <repositories>
     <repository>
       <id>neo4j-dev</id>
-      <name>neo4j.org dev repository</name>
-      <url>https://repo.neo4j.org/content/groups/dev/</url>
+      <name>neo4j.org repository</name>
+      <url>https://m2.neo4j.org/content/groups/public/</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
